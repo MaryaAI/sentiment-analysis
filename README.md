@@ -38,7 +38,7 @@ Amazon Customer Reviews is one of Amazon's iconic products. In a period of over 
 
 ## Fine-tune RoBERTa:
 I used the base version for RoBERTa, that is pretrained on the Wikipedia and Book corpus dataset, and contain 125M parameters respectively, due to the performance-runtime trade-off.
-Then I finetuned the model and tried to optimize the hyperparameters to get highest accuracy.
+Then I finetuned the model and tried to optimize the hyperparameters to get highest accuracy using **Hugging Face Transformers**.
 
 ## The Recommender system:
 
