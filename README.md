@@ -15,7 +15,8 @@ Since sentiment analysis is basically a sequence classification task, where the 
 
 Then we have trained an Alternating Least Squares (ALS) for our Collaborative Filtering Recommendation system with explicit feedback (rating).
 
-##DATASET
+## DATASET
+[amazon_us_reviews](https://huggingface.co/datasets/amazon_us_reviews)
 Amazon Customer Reviews is one of Amazon's iconic products. In a period of over two decades since the first review in 1995, millions of Amazon customers have contributed over a hundred million reviews to express opinions and describe their experiences regarding products on the Amazon.com website. This makes Amazon Customer Reviews a rich source of information for academic researchers in the fields of Natural Language Processing (NLP), Information Retrieval (IR), and Machine Learning (ML), amongst others. Accordingly, we are releasing this data to further research in multiple disciplines related to understanding customer product experiences. Specifically, “amazon_us_reviews” was constructed to represent a sample of customer evaluations and opinions, variation in the perception of a product across geographical regions, and promotional intent or bias in reviews. Over 130+ million customer reviews are available to researchers as part of this release. Each line in the data files corresponds to an individual review (tab-delimited, with no quote and escape characters). Each Dataset contains the following columns: 
 
 * marketplace - 2-letter country code of the marketplace where the review was written.
